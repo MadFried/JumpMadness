@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/skip_button" />
+
+    <!--  This TextView will not swipe when you swipe in the ViewPager -->
+
+    <Button
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:id="@+id/skip_button"
+        android:text="Skip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="skip"/>
+
+</RelativeLayout>

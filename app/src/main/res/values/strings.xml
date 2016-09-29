@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">JumpMadness</string>
+    <string name="title_activity_final_project_screen">MAD16S-Jump Madness</string>
+    <string name="new_app_name">Jump Madness</string>
+    <string name="new_app_description">\
+        This app provides the user a convenient and novel way to do the jumping rope workout without a real rope. Users can do the workout with their devices no matter where and when they are!\n
+        When the user holds the device in hand and starts to swing with the device as jumping a rope. The app simulates a sound like the rope hits the ground. When the user hears the sound, he/she needs to do the jumping rope action.\n
+        An accelerometer is used here to detect the jumping rope action. The accelerometer begins to read user’s motion data when the app starts to simulate the sound. The app calculates the time interval between the starting point and the endpoint of the jump action, and then it compares this time interval with the time interval of two simulated sounds. If the time interval of the jump motion is smaller than the time interval between the two simulated sounds, the app counts the motion as one jump and makes a “success” sound feedback to the user. Otherwise, the user misses one jump.
+
+    </string>
+    <string name="start">Play Game</string>
+    <string name="title_activity_jump_home_screen">JumpHomeScreen</string>
+    <string name="ranked_game_label">Ranked Game</string>
+    <string name="free_style_label">FreeStyle Jumping</string>
+    <string name="info_label">Info</string>
+    <string name="timer_text">Time</string>
+    <string name="jump_label">Score</string>
+    <string name="start_jumping">Start!</string>
+
+    <string name="levelOneGameRule">
+        In this Level, you have to do at least 30 jumps in 1 minute to pass.
+    </string>
+    <string name="title_activity_level_choosing">Levels</string>
+    <string name="level_one">Level One</string>
+    <string name="level_two">Level Two</string>
+    <string name="level_three">Level Three</string>
+    <string name="level_four">Level Four</string>
+    <string name="level_five">Level Five</string>
+    <string name="level_six">Level Six</string>
+    <string name="title_activity_walkthrough">WalkthroughActivity</string>
+    <string name="jump_madness_ack">Thanks to the help of Prof.Intille and TAs Deryl and Dharam\n
+                                    Mario wiki: http://www.mariowiki.com/\n
+                                    Mario music and sound effects: http://sc.chinaz.com/tag_yinxiao/chaojimali.html\n
+                                    High pass filter and weighted smoothing algorithm: Professional Android Sensor Programming, Greg Milette, Adam Stroud
+</string>
+    <string name="ok_label">OK</string>
+</resources>

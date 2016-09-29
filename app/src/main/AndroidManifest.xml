@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.ranchen.jumpmadness">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mario_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".jumpMadness.jumpMadness.HomeScreenActivity"
+            android:icon="@drawable/mario_icon"
+            android:label="@string/title_activity_final_project_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jumpMadness.jumpMadness.JumpHomeScreen"
+            android:label="@string/title_activity_jump_home_screen">
+            <intent-filter>
+                <action android:name="edu.neu.madcourse.chenjinhou.finalProject" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jumpMadness.jumpMadness.GameLevelMenuActivity"
+            android:label="@string/title_activity_level_choosing" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.LevelOneActivity"
+            android:label="@string/level_one" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.LevelTwoActivity"
+            android:label="@string/level_two" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.LevelThreeActivity"
+            android:label="@string/level_three" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.LevelFourActivity"
+            android:label="@string/level_four" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.LevelFiveActivity"
+            android:label="@string/level_five" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.LevelSixActivity"
+            android:label="@string/level_six" />
+        <activity
+            android:name=".jumpMadness.jumpMadness.WalkthroughActivity"
+            android:label="@string/title_activity_walkthrough"></activity>
+
+    </application>
+
+</manifest>
